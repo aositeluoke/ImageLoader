@@ -1,0 +1,56 @@
+//所有依赖库,都在这里
+ext {
+    android = [compileSdkVersion: 23,
+               buildToolsVersion: "23.0.3",
+               applicationId    : "com.daqing.medical",
+               minSdkVersion    : 14,
+               targetSdkVersion : 19,
+               versionCode      : 1,
+               versionName      : "1.0"]
+
+    dependencies = [
+            //支持库
+            "support-v4"           : 'com.android.support:support-v4:25.0.0',
+            "appcompat-v7"         : 'com.android.support:appcompat-v7:25.0.0',
+            "design"               : 'com.android.support:design:25.0.0',
+            "cardview-v7"          : 'com.android.support:cardview-v7:25.0.0',
+            "recyclerview-v7"      : 'com.android.support:recyclerview-v7:25.0.0',
+            "support-annotations"  : 'com.android.support:support-annotations:25.0.0',
+            //Rx
+            "rxandroid"            : 'io.reactivex:rxandroid:latest.release',
+            "rxjava"               : 'io.reactivex:rxjava:latest.release',
+            //Rx权限管理
+            "rxpermissions"        : 'com.tbruyelle.rxpermissions:rxpermissions:0.8.2@aar',
+            //Retrofit
+            "retrofit"             : 'com.squareup.retrofit2:retrofit:+',
+            "adapter-rxjava"       : 'com.squareup.retrofit2:adapter-rxjava:+',
+            "converter-gson"       : 'com.squareup.retrofit2:converter-gson:+',
+            //网络图片加载库
+            "glide"                : 'com.github.bumptech.glide:glide:3.6.1',
+            "glide_transformations": 'jp.wasabeef:glide-transformations:2.0.0',
+            "picasso"              : 'com.squareup.picasso:picasso:2.5.2',
+            // 调试工具
+            "stetho"               : 'com.facebook.stetho:stetho:1.3.1',
+            "stetho-okhttp3"       : 'com.facebook.stetho:stetho-okhttp3:1.3.1',
+            //RxLifecycle 内存泄露
+            "rxlifecycle"          : 'com.trello:rxlifecycle-components:0.6.1',
+            //其他
+            "gson"                 : 'com.google.code.gson:gson:2.3.1',
+            "butterknife"          : 'com.jakewharton:butterknife:8.4.0',
+            "eventbus"             : 'org.greenrobot:eventbus:3.0.0',//事件总线
+            "zhy_flowlayout"       : 'com.zhy:flowlayout-lib:1.0.3',//鸿洋流布局:https://github.com/hongyangAndroid/FlowLayout
+            "alertview"            : 'com.bigkoo:alertview:1.0.3',//Android对话框
+            "pickerview"           : 'com.bigkoo:pickerview:2.1.1',//Android时间选择框
+            "flycotablayout_lib"   : 'com.flyco.tablayout:FlycoTabLayout_Lib:2.0.0@aar',
+            "viewpaser"            : 'com.zhy:magic-viewpager:1.0.1',
+            "material"             : 'com.prolificinteractive:material-calendarview:1.4.0',
+            "countdownview"        : 'com.github.iwgang:countdownview:2.1',
+            "observablescrollview" : 'com.github.ksoichiro:android-observablescrollview:1.6.0',
+            "nineoldandroids"      : 'com.nineoldandroids:library:2.4.0',
+            "indexRecyclerView"    : 'com.github.jiang111:IndexRecyclerView:1.0',
+            "swipemenulistview"    : 'com.baoyz.swipemenulistview:library:1.3.0',
+            "pagerslidingtabstrip" : 'com.astuetz:pagerslidingtabstrip:1.0.1',
+            "hawk"                 : 'com.orhanobut:hawk:2.0.1',
+            "multidex"             : 'com.android.support:multidex:1.0.0',
+    ]
+}
