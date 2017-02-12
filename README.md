@@ -17,7 +17,8 @@ dependencies {
 ```
 ###3、在Application的子类，onCreate方法中对图片加载库进行初始化
 ```
-       ImageLoaderUtil.init(this, GlideLoader.class);或ImageLoaderUtil.init(this, PicassoLoader.class);
+       ImageLoaderUtil.init(this, GlideLoader.class);
+       //或ImageLoaderUtil.init(this, PicassoLoader.class);
 ```
 ###4、加载图片
 ```
